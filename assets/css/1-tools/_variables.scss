@@ -1,0 +1,39 @@
+// Variables
+
+
+// Table of Contents
+//
+// Colors
+// Grid columns
+// Fonts
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$brand-primary:             #fd634e;
+$brand-secondary:           #a2ca28;
+
+$body-color:                #fff;
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:               20;
+$grid-gutter-width:          1.4285714286rem; // 20px
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:     'Open Sans', sans-serif;
+$font-family-base:           $font-family-sans-serif;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root:             14px;
+
+$line-height:                1.6;

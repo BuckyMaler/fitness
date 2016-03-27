@@ -1,0 +1,173 @@
+footer
+	position: relative
+	width: 100%
+	background-color: #0d1119
+	overflow: hidden
+	
+.closer
+	position: relative
+	height: 600px
+	background:
+		image: url("../img/footer.jpg")
+		position: center
+		size: cover
+		repeat: no-repeat
+		
+	.closing-claim
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		width: 100%
+		padding: 0 15px
+	
+		h1
+			margin-bottom: 15px
+			font-size: 40px
+			font-weight: 400
+			text-align: center
+			line-height: 42px
+		
+		p
+			max-width: 475px
+			margin: 0 auto
+			font-size: 16px
+			text-align: center
+		
+.footer-lockup
+	position: relative
+	padding-top: 25px
+	padding-bottom: 135px
+	
+	.red-angle
+		position: relative
+		left: -60%
+		transform: skewX(88deg)
+		width: 100%
+		height: 30px
+		margin-bottom: 50px
+		background-color: $brand-primary
+		overflow: hidden
+		
+		@media (max-width: 767px)
+			display: none
+	
+	h3
+		margin-bottom: 20px
+		font-size: 15px
+		font-weight: 400
+		
+	p
+		color: #8297a7
+		
+	.social-icons
+		display: flex
+		max-width: 265px
+		justify-content: space-between
+		
+		@include media-breakpoint-down(md)
+			margin-bottom: 20px
+			
+		a
+			color: #fff
+		
+		i
+			display: inline-block
+			width: 50px
+			height: 50px
+			font-size: 20px
+			text-align: center
+			line-height: 50px
+			border-radius: 50%
+			transition: background-color .2s ease-in-out
+						
+		.icon-facebook
+			background-color: #2e3192
+			
+			&:hover
+				background-color: lighten(#2e3192, 10%)
+			
+		.icon-twitter
+			background-color: #00aeef
+			
+			&:hover
+				background-color: lighten(#00aeef, 10%)
+			
+		.icon-youtube-play
+			background-color: #ed3123
+			
+			&:hover
+				background-color: lighten(#ed3123, 10%)
+			
+		.icon-linkedin
+			background-color: #171a8f
+			
+			&:hover
+				background-color: lighten(#171a8f, 10%)
+				
+	form
+		display: flex
+		
+		input
+			height: 50px
+			margin-right: 5px
+			padding-left: 20px
+			border: none
+			border-radius: 3px
+			color: #8297a7
+			
+			&:focus
+				outline: none
+			
+			&::placeholder
+				color: #8297a7
+				
+		input[type="email"]
+			flex-grow: 1
+				
+		.newsletter-btn
+			margin-right: 0
+			padding: 0 30px
+			color: #fff
+			font-size: 15px
+			line-height: 50px
+			background-color: $brand-secondary
+			border: none
+			border-radius: 3px
+			transition: background-color .2s ease-in-out
+			
+			i
+				position: relative
+				top: 2px
+				left: 7px
+				display: inline-block
+							
+			&:hover
+				background-color: lighten($brand-secondary, 5%)
+			
+@include media-breakpoint-down(sm)
+	.footer-lockup
+	
+		form
+			display: block
+			
+			input
+				width: 100%
+				margin-bottom: 10px
+				
+			.newsletter-btn
+				width: 100%
+	
+.bg-angled-left
+	position: absolute
+	width: 100%
+	height: 100%
+	transform: skewY(-3.5deg)
+	transform-origin: left
+	background-color: #0d1119
+	
+.bg-angled-right
+	@extend .bg-angled-left
+	transform: skewY(3deg)
+	transform-origin: right
+	
