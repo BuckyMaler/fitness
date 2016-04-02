@@ -6,6 +6,8 @@ var gulp = require('gulp'),
 		imageMin = require('gulp-imagemin'),
 		cache = require('gulp-cache'),
 		plumber = require('gulp-plumber'),
+		rename = require('gulp-rename'),
+		del = require('del'),
 		browserSync = require('browser-sync').create();
 		
 gulp.task('html', function() {
@@ -25,9 +27,9 @@ gulp.task('styles', function() {
 		}))
 		.pipe(sass({outputStyle: 'expanded'}))
 		.pipe(autoprefix())
-		.pipe(gulp.dest('assets/css'))
+		.pipe(gulp.dest('dist/assets/css'))
+		.pipe(rename({suffix: '.min'}))
 		.pipe(sass({outputStyle: 'compressed'}))
-		.pipe(autoprefix())
 		.pipe(gulp.dest('dist/assets/css'))
 		.pipe(browserSync.reload({stream: true}));
 });
@@ -43,6 +45,8 @@ gulp.task('scripts', function() {
 		}))
 		.pipe(jsHint())
     .pipe(jsHint.reporter('default'))
+    .pipe(gulp.dest('dist/assets/js'))
+    .pipe(rename({suffix: '.min'}))
 		.pipe(uglify())
 		.pipe(gulp.dest('dist/assets/js'))
 		.pipe(browserSync.reload({stream: true}));
@@ -69,6 +73,10 @@ gulp.task('serve', function() {
 			baseDir: 'dist/'
 		}
 	});
+});
+
+gulp.task('clean', function() {
+	return del(['dist/assets/**']);
 });
 
 gulp.task('default', ['html', 'styles', 'scripts', 'images', 'icons'], function() {
