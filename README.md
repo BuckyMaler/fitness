@@ -3,7 +3,7 @@
 Fitness is a bright and vibrant single page website template written in Bootstrap 4, and serves as a fantastic starting point to get you going on your next website project.
 
 Here you can find the original [PSD](http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/)
-By [Blaz Robar](http://blazrobar.com/)
+by [Blaz Robar](http://blazrobar.com/)
 
 This project was developed with HTML5, Sass, JavaScript, Bootstrap 4 (GRID ONLY), and Gulp.
 
@@ -16,9 +16,9 @@ This project was developed with HTML5, Sass, JavaScript, Bootstrap 4 (GRID ONLY)
 * ruby: [ruby-lang.org](https://www.ruby-lang.org/en/)
 
 
-## Quick start
+## Quick start:
 
-* [Download the latest release](https://github.com/BuckyMaler/Fitness) or clone the repo
+* [Download the latest release](https://github.com/BuckyMaler/Fitness/archive/master.zip) or clone the repo
 * Install gulp `npm install -g gulp`
 * Download dependencies `npm install`
 * Dev mode with browsersync `gulp`
