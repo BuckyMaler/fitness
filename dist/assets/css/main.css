@@ -2547,6 +2547,12 @@ header {
   }
 }
 
+@media (max-width: 991px) {
+  .mid-unit .lifestyle .text-block .text-lockup {
+    max-width: 650px;
+  }
+}
+
 .mid-unit .summer-fun {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2648,9 +2654,6 @@ header {
 @media (max-width: 991px) {
   .mid-unit {
     height: auto;
-  }
-  .mid-unit .lifestyle .text-block .text-lockup {
-    max-width: 650px;
   }
 }
 
@@ -2813,11 +2816,14 @@ header {
 }
 
 @media (max-width: 991px) {
+  .eating-habits .text-block .text-lockup {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 991px) {
   .bottom-unit {
     height: auto;
-  }
-  .bottom-unit .eating-habits .text-block .text-lockup {
-    max-width: 650px;
   }
 }
 
