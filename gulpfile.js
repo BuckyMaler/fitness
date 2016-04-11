@@ -80,7 +80,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('default', ['html', 'styles', 'scripts', 'images', 'icons'], function() {
-	gulp.watch('*.html', ['html']).on('change', browserSync.reload)
+	gulp.watch('*.html', ['html']).on('change', browserSync.reload);
 	gulp.watch(['assets/css/**/*.sass',
 						'assets/css/**/*.scss'],['styles']);
 	gulp.watch('assets/js/*.js', ['scripts']);
