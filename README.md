@@ -5,7 +5,9 @@ Fitness is a bright and vibrant single page website template written in Bootstra
 Here you can find the original [PSD](http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/)
 by [Blaz Robar](http://blazrobar.com/)
 
-This project was developed with HTML5, Sass, JavaScript, Bootstrap 4 (GRID ONLY), and Gulp.
+This project was developed with HTML5, Sass, JavaScript, Bootstrap 4, and Gulp.
+
+Performance basics are covered: unused Bootstrap SCSS is commented out, assets are minified into single CSS and JS files, and the images are optimized.
 
 [LIVE PREVIEW](http://buckymaler.com/featured-work/fitness)
 
