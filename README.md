@@ -24,3 +24,8 @@ Performance basics are covered: unused Bootstrap SCSS is commented out, assets a
 * Install gulp `npm install -g gulp`
 * Download dependencies `npm install`
 * Dev mode with browsersync `gulp`
+
+## Misc:
+
+* Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)
+* Follow Blaz: [Twitter](https://twitter.com/blazrobar), [Facebook](https://www.facebook.com/blazrobar/)
