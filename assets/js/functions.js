@@ -13,6 +13,12 @@ $(window).scroll(function(){
 		$('.fixed-navbar, .navbar-lockup').addClass('nav-fix');
 
 	}
+	
+	else {
+		
+		$('.fixed-navbar, .navbar-lockup').removeClass('nav-fix');
+		
+	}
 
 });
 
