@@ -1,6 +1,6 @@
 # [Fitness: Bootstrap 4 website template](http://buckymaler.com/featured-work/fitness)
 
-[Featured on BlazRobar](http://blazrobar.com/free-psd-website-templates/fitness-one-pager-html-template/)
+### [Featured on BlazRobar](http://blazrobar.com/free-psd-website-templates/fitness-one-pager-html-template/)
 
 Fitness is a bright and vibrant single page website template written in Bootstrap 4, and serves as a fantastic starting point to get you going on your next website project.
 
