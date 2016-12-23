@@ -1,12 +1,16 @@
 {
-  "name": "fitness-build-system",
+  "name": "fitness",
   "version": "1.0.0",
-  "description": "fitness development dependencies",
+  "description": "bootstrap 4 website template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BuckyMaler/Fitness.git"
+    "url": "git+https://github.com/BuckyMaler/fitness.git"
   },
-  "author": "buckymaler.com",
+  "author": {
+    "name": "Bucky Maler",
+    "url": "buckymaler.com",
+    "mail": "maler.bucky@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.11.1",
