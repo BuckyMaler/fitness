@@ -20,7 +20,7 @@ Performance basics are covered: unused Bootstrap SCSS is commented out, assets a
 * ruby: [ruby-lang.org](https://www.ruby-lang.org/en/)
 
 
-## Quick start:
+## Quickly start:
 
 * [Download the latest release](https://github.com/BuckyMaler/fitness/archive/master.zip) or clone the repo
 * Install gulp `npm install -g gulp`
