@@ -1,5 +1,10 @@
 # [Fitness: Bootstrap 4 website template](http://buckymaler.com/fitness)
 
+What is BootStrap4?
+Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs
+
 ### [Featured on BlazRobar](http://blazrobar.com/free-psd-website-templates/fitness-one-pager-html-template/)
 
 Fitness is a bright and vibrant single page website template written in Bootstrap 4, and serves as a fantastic starting point to get you going on your next website project.
